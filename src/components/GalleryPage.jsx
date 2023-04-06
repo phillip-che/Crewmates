@@ -1,7 +1,7 @@
 const GalleryPage = () => {
     return (
         <div>
-            Gallery
+            <h1>Your Crewmate Gallery</h1>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import './App.css'
 import HomePage from './components/HomePage'
-import SideBar from './components/SideBar'
+import { supabase } from './client';
 
 function App() {
 
