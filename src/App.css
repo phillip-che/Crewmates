@@ -5,20 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-
 .card {
   padding: 2em;
 }
@@ -55,4 +41,31 @@
 
 .link {
   text-decoration: none;
+}
+
+.crewmate-input {
+  display: flex;
+  padding: 2rem;
+  gap: 50px;
+  justify-content: center;
+}
+.name-input, .speed-input, .color-input {
+  background-color: #313338;
+  border-radius: 15px;
+}
+
+.name-input, .speed-input {
+  padding: 2rem;
+  height: 100px;
+}
+
+.color-input {
+  padding: 1rem;
+}
+
+.color-options {
+  margin-top: -10px;
+  padding: 1rem;
+  text-align: left;
+  margin-bottom: -10px;
 }
