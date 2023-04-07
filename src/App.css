@@ -78,3 +78,51 @@
   height: 150px; 
   width: auto;
 }
+
+.crewmate-card {
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+  margin-bottom: -125px;
+  border-radius: 10px;
+  background-color: #313338;
+}
+
+#Red {
+  box-shadow: 15px -20px 15px #eb1818af;
+}
+
+#Purple {
+  box-shadow: 15px -20px 15px #4c0082b6;
+}
+
+#Yellow {
+  box-shadow: 15px -20px 15px #ffff0093;
+}
+
+#Orange {
+  box-shadow: 15px -20px 10px 2px #ff8000d7;
+}
+
+#Pink {
+  box-shadow: 15px -20px 10px 2px rgb(197, 29, 147);
+}
+
+#Blue {
+  box-shadow: 15px -20px 15px #0000ff71;
+}
+
+#Green {
+  box-shadow: 15px -20px 15px #00ff007d;
+}
+
+#Rainbow {
+  box-shadow: 7px -5px 10px #4c0082b6, 11px -9px 10px #0000ff71, 16px -14px 10px #00ff007d, 20px -17px 10px #ffff0093, 24px -19px 10px #ff8000d7, 27px -23px 10px #eb1818af, 5px 5px 15px 5px #0000;
+}
+
+.crewmate-list {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 200px;
+}

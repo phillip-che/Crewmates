@@ -24,19 +24,19 @@ const CrewmateInput = ({onChange}) => {
             <div className="color-input">
                 <h3>Color:</h3>
                 <ul className="color-options">
-                    <input type="radio" value="red" name="color" onChange={onChange} /> Red
+                    <input type="radio" value="Red" name="color" onChange={onChange} /> Red
                     <br />
-                    <input type="radio" value="green" name="color" onChange={onChange} /> Green
+                    <input type="radio" value="Green" name="color" onChange={onChange} /> Green
                     <br />
-                    <input type="radio" value="purple" name="color" onChange={onChange} /> Purple
+                    <input type="radio" value="Purple" name="color" onChange={onChange} /> Purple
                     <br />
-                    <input type="radio" value="yellow" name="color" onChange={onChange} /> Yellow
+                    <input type="radio" value="Yellow" name="color" onChange={onChange} /> Yellow
                     <br />
-                    <input type="radio" value="orange" name="color" onChange={onChange} /> Orange
+                    <input type="radio" value="Orange" name="color" onChange={onChange} /> Orange
                     <br />
-                    <input type="radio" value="pink" name="color" onChange={onChange} /> Pink
+                    <input type="radio" value="Pink" name="color" onChange={onChange} /> Pink
                     <br />
-                    <input type="radio" value="rainbow" name="color" onChange={onChange} /> Rainbow
+                    <input type="radio" value="Rainbow" name="color" onChange={onChange} /> Rainbow
                 </ul>
             </div>
         </div>
