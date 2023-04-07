@@ -9,7 +9,7 @@ const CrewmateCard = ({name, speed, color, id}) => {
             <h3>Speed: {speed} MPH</h3>
             <h3>Color: {color}</h3>
             <Link to={`/${id}/edit`}>
-            <button className="edit-button">Edit Crewmate</button>
+                <button className="edit-button">Edit Crewmate</button>
             </Link>
         </div>
     )
