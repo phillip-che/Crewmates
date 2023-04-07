@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import CrewmateCard from "./CrewmateCard"
 import { supabase } from "../client";
+import { Link } from "react-router-dom"
 
 const GalleryPage = () => {
 
@@ -25,13 +26,18 @@ const GalleryPage = () => {
             {crewmates ? (
                 <div className="crewmate-list">
                     {crewmates.map((crewmate) => (
-                        <CrewmateCard
-                        name={crewmate.name}
-                        speed={crewmate.speed} 
-                        color={crewmate.color}
-                        />
+                        <Link 
+                        className="link"
+                        to={`/${crewmate.id}`}
+                        key={crewmate.id}
+                        >
+                            <CrewmateCard
+                            name={crewmate.name}
+                            speed={crewmate.speed} 
+                            color={crewmate.color}
+                            />
+                        </Link>
                     ))}
-                    
                 </div>
             ) : (
                 <div>Your Gallery is Empty</div>

@@ -18,7 +18,7 @@
 }
 
 .update-bg {
-  width: 25;
+  width: 25%;
 }
 
 .sidebar {
@@ -45,6 +45,7 @@
 
 .link {
   text-decoration: none;
+  color: white;
 }
 
 .crewmate-input {
