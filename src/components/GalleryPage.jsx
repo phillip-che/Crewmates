@@ -23,7 +23,7 @@ const GalleryPage = () => {
     return (
         <div className="gallery">
             <h1>Your Crewmate Gallery</h1>
-            {crewmates ? (
+            {crewmates.length > 0 ? (
                 <div className="crewmate-list">
                     {crewmates.map((crewmate) => (
                         <Link 
