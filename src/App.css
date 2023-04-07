@@ -75,6 +75,10 @@
   margin-bottom: -10px;
 }
 
+.update-button {
+  margin-right: 20px;
+}
+
 .single-crewmate {
   height: 150px; 
   width: auto;

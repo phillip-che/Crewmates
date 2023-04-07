@@ -35,6 +35,7 @@ const GalleryPage = () => {
                             name={crewmate.name}
                             speed={crewmate.speed} 
                             color={crewmate.color}
+                            id={crewmate.id}
                             />
                         </Link>
                     ))}
